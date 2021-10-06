@@ -27,7 +27,7 @@ platform :ios do
     telegram(
       token: "2032755657:AAFDDxLwwnLtLnz1vOrkArGCZJkiyX1AnGQ",
       chat_id: '545813818',
-      text: "Hello world, Telegram!"
+      text: "🍀 BUILD SUCCEEDED 🍀"
     )
   end
 
