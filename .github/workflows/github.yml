@@ -13,4 +13,4 @@ jobs:
           bundler-cache: true
       - name: Build and run tests
         run: 
-          gem install bundler; bundle install; bundle exec fastlane build_and_test
+          gem install bundler; bundle install; bundle exec fastlane build_for_testing
