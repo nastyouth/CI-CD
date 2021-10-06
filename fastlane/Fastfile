@@ -25,8 +25,8 @@ platform :ios do
       derived_data_path: "DerivedData/"
     )
     telegram(
-    token: ENV['2032755657:AAFDDxLwwnLtLnz1vOrkArGCZJkiyX1AnGQ'],
-    chat_id: ENV['545813818'],
+    token: ENV["2032755657:AAFDDxLwwnLtLnz1vOrkArGCZJkiyX1AnGQ"],
+    chat_id: ENV["545813818"],
     text: "Hello world, Telegram!"
     )
   end
